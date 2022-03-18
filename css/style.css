@@ -59,7 +59,9 @@ footer{
 
 /* HEADER */
 
-
+header{
+    margin-top: 15px;
+}
 
 header img{
     width: 150px;
@@ -134,16 +136,13 @@ section.hero{
     float: left;
     width: 20%;
     min-height: 400px;
-    background-color: aquamarine;
 }
 
 .col-big{
     float: left;
     width: calc(60% - 30px);
     margin: 0 15px;
-    min-height: 400px;
-    background-color: aquamarine
-    
+    min-height: 400px;    
 }
 
 
@@ -154,7 +153,15 @@ section.hero{
     height: 180px;
     width: 100%;
     opacity: 0.8;
-    border-radius: 20px;  
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+
+.sfondo-img{
+    height: 180px;
+    background-color: black;
+    border-radius: 20px;
 }
 
 
