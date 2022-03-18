@@ -11,6 +11,7 @@
 
 body{
     color: #8A8A8A;
+    font-family: 'Montserrat', sans-serif;
 } 
 
 .img-main{
@@ -33,13 +34,21 @@ section.hero, .img-banner{
     border-radius: 20px;
 }
 
-h2{
+h3,h2,h4{
     color:black;
+}
+
+h3,h4{
+    padding: 10px 0;
+    font-weight: 400;
 }
 
 h1{
     color: white;
+    font-weight: 400;
 }
+
+
 
 
 /*TAG SEMANTICI*/
@@ -50,8 +59,7 @@ main{
 }
 
 footer{
-    height: 100px;
-    background-color: blueviolet;
+    text-align: center;
 }
 
 
@@ -163,6 +171,12 @@ section.hero{
     background-color: black;
     border-radius: 20px;
 }
+
+footer span{
+    color: red;
+    font-size: x-large;
+}
+
 
 
 
