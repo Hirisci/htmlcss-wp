@@ -2,11 +2,14 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    color: #8A8A8A;
+    box-sizing: border-box;   
 }
 
 /* COMMON */
+
+body{
+    color: #8A8A8A;
+} 
 
 .img-main{
     border-radius: 20px;
@@ -60,7 +63,12 @@ header img{
 }
 
 .nav-header a:hover{
-    color:black;
+    color: black;
+
+}
+
+.nav-header a:visited{
+    color:#8A8A8A;
 }
 
 /* HERO */
@@ -71,6 +79,7 @@ section.hero{
     width: 100%;
     background-color: black;
     margin-bottom: 10px;
+    position: relative;
 }
 
 .img-banner{
@@ -79,7 +88,19 @@ section.hero{
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
-    opacity: 0.9;
+    opacity: 0.8;
+}
+
+.testo-banner{
+    color: white;
+    position: absolute;
+    left: 4%;
+    bottom: 20%;
+    width: 50%;
+}
+
+h1,h5{
+    color:white;
 }
 
 
