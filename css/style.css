@@ -53,12 +53,12 @@ header img{
 }
 
 .nav-header li{
-    display: inline-block;
-    margin: 0 5px;    
+    display: inline-block;  
 }
 .nav-header a{
     text-transform: uppercase;
     text-decoration: none;
+    margin: 0 5px;  
 }
 
 .nav-header a:hover{
