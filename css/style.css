@@ -7,6 +7,11 @@
 }
 
 /* COMMON */
+
+.img-main{
+    border-radius: 20px;
+    width: 100%;
+}
 .container{
     padding: 3px;
     width: 1280px;
@@ -19,22 +24,15 @@
     clear: both;
 }
 
+section.hero, .img-banner{
+    border-radius: 20px;
+}
+
 /*TAG SEMANTICI*/
 
 
 main{
     margin:20px 0;
-}
-
-section.hero{
-    min-height: 400px;
-    background-color: yellow;
-    margin-bottom: 20px;
-}
-
-section.layout{
-    min-height: 500px;
-    background-color: blue;
 }
 
 footer{
@@ -65,9 +63,33 @@ header img{
     color:black;
 }
 
+/* HERO */
+
+section.hero{
+    border-radius: 20px;
+    height: 550px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+.img-banner{
+    background-image: url("../img/banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    opacity: 0.9;
+}
+
 
 
 /*SECTION LAYOUT*/
+
+section.layout{
+    min-height: 500px;
+    background-color: blue;
+}
 
 .head{
     min-height: 100px;
