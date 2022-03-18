@@ -5,7 +5,9 @@
     box-sizing: border-box;   
 }
 
+
 /* COMMON */
+
 
 body{
     color: #8A8A8A;
@@ -31,6 +33,15 @@ section.hero, .img-banner{
     border-radius: 20px;
 }
 
+h2{
+    color:black;
+}
+
+h1{
+    color: white;
+}
+
+
 /*TAG SEMANTICI*/
 
 
@@ -43,7 +54,12 @@ footer{
     background-color: blueviolet;
 }
 
+
+
+
 /* HEADER */
+
+
 
 header img{
     width: 150px;
@@ -71,7 +87,11 @@ header img{
     color:#8A8A8A;
 }
 
+
+
 /* HERO */
+
+
 
 section.hero{
     border-radius: 20px;
@@ -99,22 +119,14 @@ section.hero{
     width: 50%;
 }
 
-h1,h5{
-    color:white;
-}
-
 
 
 /*SECTION LAYOUT*/
 
-section.layout{
-    min-height: 500px;
-    background-color: blue;
-}
+
 
 .head{
-    min-height: 100px;
-    background-color: aquamarine
+    padding: 15px 0;
 }
 
 .colonne{
